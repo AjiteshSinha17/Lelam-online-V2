@@ -595,6 +595,12 @@ class _MyAdsWidgetState extends State<MyAdsWidget> {
               onTap: () {
                 setState(() {
                   _expandedImages[ad['id']] = !isExpanded;
+<<<<<<< HEAD
+=======
+                  developer.log(
+                    'Toggled image expansion for ad ${ad['id']}: ${!isExpanded}',
+                  );
+>>>>>>> 70c9b823186fb010cf967cdebfd8da0b9e77b4e5
                 });
 
                 developer.log(
